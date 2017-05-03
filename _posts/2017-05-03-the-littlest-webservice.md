@@ -18,9 +18,7 @@ This becomes an issue in use cases such as [PubMed by Year](https://esperr.githu
 
 That works, but it also comes to 72 requests per graph. If we're adhering to the rules and waiting 1/3 of a second between each request, it's going to take us 24 seconds to get our counts. What can we do instead?
 
-Close observers will note that there is a "Download CSV" link underneath the "Results by Year" widget that shows up for any PubMed search with 500 hits or more. Sadly, there is no way to directly get this link using the API, but we could just try to scrape it off the PubMed results page and then urlfetch the CSV.
-
-Due to the way that PubMed pages are served, there's not an easy way to get a static URL off the bat, but we can scrape the value for "blobid". Once we have that, we can combine it with our original search like so:
+Close observers will note that there is a "Download CSV" link underneath the "Results by Year" widget that shows up for any PubMed search with 500 hits or more. Sadly, there is no way to directly get this link using the API, but we could just try to scrape it off the PubMed results page and then urlfetch the CSV. Due to the way that PubMed pages are served, there's not an easy way to get a static URL off the bat, but we can scrape the value for "blobid". Once we have that, we can combine it with our original search like so:
 
 ~~~~
 csvstem = "https://www.ncbi.nlm.nih.gov/pubmed?p$l=Email&Mode=download&dlid=timeline&filename=timeline.csv"
@@ -29,6 +27,9 @@ try:
     csvurl = csvstem + "&term=" + searchstr + "&bbid=" + blobId + "&p$debugoutput=off"
     result = urlfetch.fetch(csvurl)
 ~~~~
-(see the full code [here](https://github.com/esperr/med-by-year/blob/master/main.py))    
 
-With the resulting CSV, we now have counts for all possible years (currently back to 1809 for the smattering of older PubMed Central stuff) in two requests instead of bunches.
+With the resulting CSV, we now have counts for all possible years (currently back to 1809 for the smattering of older PubMed Central stuff) in two requests instead of bunches. Even better, we can use some python to construct a small webservice to serve those counts up as easily-consumable JSON:
+
+[https://med-by-year.appspot.com/search?q=death](https://med-by-year.appspot.com/search?q=death)
+
+(see the full code [here](https://github.com/esperr/med-by-year/blob/master/main.py))    
