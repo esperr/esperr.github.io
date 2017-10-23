@@ -7,7 +7,7 @@ categories: MEDLINE patterns
 
 Poking around in PubMed with a visual search tool such as [Search Workbench](https://searchworkbench.info) can reveal an interesting pattern: different concepts sometimes perform similarly over time even though they refer to fairly distinct sets of citations.
 
-To illustrate what I mean, let's start with two searches that are closely related. For instance, "myocardial infarction"[MeSH Terms] is slightly more precise rendition of "heart attack", and both searches return very similar results:
+To illustrate what I mean, let's start with two searches that are closely related. For instance, "myocardial infarction"[MeSH Terms] is a slightly more precise rendition of "heart attack", and both searches return very similar results:
 
 <img src="/assets/sbd_y1.png" width="500">
 
@@ -30,3 +30,5 @@ By the same token, the three states 'California', 'Texas' and 'Georgia' look ver
 ...but don't share much otherwise:
 
 <img src="/assets/sbd_v3.png" width="400">
+
+This could either be a weird one-or-two off quirk, or it could be the first sketches of profound law of citation sets. I can't say that I know off the top of my head, but if *you* do, please let me know: <ed_sperr@hotmail.com>.
