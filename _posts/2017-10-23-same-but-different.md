@@ -19,7 +19,7 @@ Similarly, when we do searches for "beer" and for "wine", we also see a close al
 
 <img src="/assets/sbd_y2.png" width="500">
 
-"Well," one might think, "it is probably that there are a lot of citations for articles about alcoholic bevereges, and 'beer' and 'wine' are both terms that show up in all those hits.". Not so much:
+"Well," one might think, "it is probably that there are a lot of citations for articles about alcoholic bevereges, and 'beer' and 'wine' are both terms that show up in all those hits." Not so much:
 
 <img src="/assets/sbd_v2.png" width="400">
 
@@ -31,4 +31,4 @@ By the same token, the three states 'California', 'Texas' and 'Georgia' look ver
 
 <img src="/assets/sbd_v3.png" width="400">
 
-This could either be a weird one-or-two off quirk, or it could be the first sketches of profound law of citation sets. I can't say that I know off the top of my head, but if *you* do, please let me know: <ed_sperr@hotmail.com>.
+This could either be a weird one-or-two off quirk, or it could be the first intimation of a profound law of citation sets. I can't say that I know off the top of my head, but if *you* do, please drop me a line: <ed_sperr@hotmail.com>.
