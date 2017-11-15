@@ -17,3 +17,20 @@
 .mylistposts {
   margin-top: 1.5em;
 }
+
+.PageNavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  max-width: 40%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  float: right;
+}
