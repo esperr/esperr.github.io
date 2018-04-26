@@ -24,12 +24,10 @@ The nuts and bolts are handled by a [Python script](https://github.com/esperr/me
 <img src="/assets/liblist.PNG" width="700">
 
 
-...or generates a bar chart for the areas or subjects that are (proportionally speaking) most prominent in the bills sponsored or cosponsored for a particular member. For example, Rep. Clyburn (D-SC-6) has recently been an important member when it comes to items relating to the Caribbean:
+...or generates a bar chart for the areas or subjects that are (proportionally speaking) most prominent in the bills sponsored or cosponsored by a particular member. For example, Rep. Clyburn (D-SC-6) has recently been an important member when it comes to items relating to the Caribbean:
 
 <img src="/assets/clyburn.PNG" width="700">
 
 ...and Sen. Alexander (R-TN) has taken an interest in Animals:
 
 <img src="/assets/alexander.PNG" width="700">
-
-Subjects/areas are listed in order of relative importance -- the topmost bars represent the areas where that member has been more active than average
