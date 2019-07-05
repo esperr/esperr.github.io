@@ -18,13 +18,13 @@ Using the [NCBI API (E-utilities)](https://www.ncbi.nlm.nih.gov/books/NBK25497/)
 
 <img src="/assets/PubMed.PNG" style="float:right;width:300px;padding-left:1em;">
 
-PubTrees ([https://esperr.github.io/pub-trees/](https://esperr.github.io/pub-trees/)) enables you to explore the concepts in the documents returned by your PubMed search by using the [Word Tree](http://hint.fm/papers/wordtree_final2.pdf) technique first developed by Martin Wattenberg and Fernanda B. Viégas. Much like word clouds, Word Trees provide information about the frequency of terms. Crucially, they also revela the *context* in which those terms are used.
+PubTrees ([https://esperr.github.io/pub-trees/](https://esperr.github.io/pub-trees/)) enables you to explore the concepts in the documents returned by your PubMed search by using the [Word Tree](http://hint.fm/papers/wordtree_final2.pdf) technique first developed by Martin Wattenberg and Fernanda B. Viégas. Much like word clouds, Word Trees provide information about the frequency of terms. Crucially, they also reveal the *context* in which those terms are used by showing the frequency of word sequences.
 
 <br style="clear:both;" />
 
 ### [Search Workbench](https://searchworkbench.info/)
 
-Search Workbench ([https://searchworkbench.info/](https://searchworkbench.info/)) is a workspace for visualizing individual searches as well as making visual comparisons different results sets. This tool enables you to easily see how changes in your search strategy affect your results in real time. The goal is to streamline the process of refining a search so that you can spend less time dialing-in your search strategy and more time examining your results.
+Search Workbench ([https://searchworkbench.info/](https://searchworkbench.info/)) is a workspace for visualizing individual searches as well as making visual comparisons between different results sets. This tool enables you to easily see how changes in your search strategy affect your results in real time. The goal is to streamline the process of refining a search so that you can spend less time dialing-in your search strategy and more time examining your results.
 
 <br style="clear:both;" />
 
