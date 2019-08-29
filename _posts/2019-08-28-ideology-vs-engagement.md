@@ -5,7 +5,7 @@ date:   2019-08-28
 categories: data_visualization programming congress
 ---
 
-Introducing a new visualization in Members by Interest -- scatterplots that show the relationship between a member’s engagement with a given topic (as measured by [adjusted score](https://esperr.github.io/members-by-interest/about.html#howtoadjust)) and their ideology (as measured by Dimension 1 [DW-NOMINATE](https://voteview.com/about) scores).
+Introducing a new visualization in Members by Interest -- scatter plots that show the relationship between a member’s engagement with a given topic (as measured by [adjusted score](https://esperr.github.io/members-by-interest/about.html#howtoadjust)) and their ideology (as measured by Dimension 1 [DW-NOMINATE](https://voteview.com/about) scores).
 
 As noted before, adjusted scores measure a member's interest in a given topic as reflected by those measures about that topic (as cataloged by the folks at LC) that they sponsor and cosponsor. These scores are the same ones that drive the existing visualizations where members are ranked by the intensity of their legislative interests. What’s new with visualization is the incorporation of DW-NOMINATE scores.
 
