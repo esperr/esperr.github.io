@@ -9,7 +9,7 @@ Medical Librarians and other folks who search PubMed on a regular basis are like
 
 This can be seen clearly when comparing the two search terms "Covid19" and "Covid-19". ([view on PubVenn](https://pubvenn.appspot.com/?Covid19%20OR%20Covid-19#!))
 
-<img src="/assets/covidvscovid.PNG" width="500">
+<img src="/assets/covidvscovid.png" width="500">
 
 Why the difference? In the first case, ATM in Legacy PubMed is rendering "Covid19" as
 >"COVID-19"[Supplementary Concept] OR "COVID-19"[All Fields] OR "covid19"[All Fields]
