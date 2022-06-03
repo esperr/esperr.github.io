@@ -21,4 +21,6 @@ In some cases, the differences are so radical that it seems that they must have 
 
 <img width="85%" src="/assets/diabetes_medication_mapping.png" alt="Old and new mapping for diabetes medication'">
 <br><br>
-So does this mark a conscious effort to increase retrieval for a beginner-level search for medications? It certainly seems deliberate. Indeed, I imagine some sort of user testing by the friendly folks on the PubMed UX team was involved. This is the sort of change that is very dramatic, but shouldn't affect the more complex, fielded searches done by a medical librarian (as they are less subject to modification by ATM in the first place). But as advanced PubMed users know, ATM can be...persistent, so it may be worth checking a recurring search that you developed before the handover to 'new' PubMed.
+So does this mark a conscious effort to increase retrieval for a beginner-level search for medications? It certainly seems deliberate. Indeed, I imagine some sort of user testing by the friendly folks on the PubMed UX team was involved. This is the sort of change that is very dramatic, but shouldn't affect the more complex, fielded searches done by a medical librarian (as they are less subject to modification by ATM in the first place). But as advanced PubMed users know, ATM can be...persistent, so it may be worth checking a recurring search that you developed before the handover to 'new' PubMed using [https://esperr.github.io/mapping-tester](https://esperr.github.io/mapping-tester).
+
+If you find any particularly interesting differences, let me know!
