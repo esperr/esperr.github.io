@@ -303,6 +303,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (= 0.17.0)
+  jekyll-paginate
   kramdown (>= 2.3.0)
   kramdown-parser-gfm
   minima (~> 2.0)

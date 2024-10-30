@@ -34,3 +34,12 @@
 .PageNavigation .next {
   float: right;
 }
+
+.separator {
+  color: grey;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:2em;
+}
